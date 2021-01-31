@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+	
+
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+
+
+	<body>
+		
+		<header> OUTER SPACE </header>
+		<img src="space.jpg" id="circle">
+
+
+		<nav>
+
+			<ul>
+  			<li><a href="site1.html" class="button">button 1</a></li> <br><br>
+  			<li><a href="site2.html" class="button">button 2</a></li> <br><br>
+  			<li><a href="site3.html" class="button"> button 3</a></li> <br><br>
+			</ul>
+		</nav>
+
+
+
+
+	</body>
+
+
+</html>
