@@ -70,7 +70,8 @@ li a {
    }
 
  .circle2 {
-background-color: #000000;
+background: #000000;
+border-radius: 50%;
 }
 
 .circle2 p{
