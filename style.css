@@ -39,7 +39,7 @@ nav {
   padding: 40px;
   padding-top: 50px;
   padding-left: 20px;
-  height: 550px;
+  height: 500px;
 
 }
 
@@ -69,7 +69,7 @@ li a {
   border: 1px solid white;
    }
 
-#circle2 {
+#sun {
   background: #ffcc00;
   border-radius: 250px;
   width: 300px;
@@ -77,15 +77,15 @@ li a {
   margin-left: 400px;
 }
 
-#circle2 p{
+#sun p{
   color: black;
   text-transform: uppercase;
   font-size: 40px;
   text-align: center;
-  padding-top: 80px;
+  padding-top: 150px;
 }
 
-#circle3 {
+#mercury {
   background: #000000;
   border-radius: 250px;
   width: 200px;
@@ -93,7 +93,7 @@ li a {
   margin-left: 700px;
 }
 
-#circle3 p{
+#mercucry p{
   color: white;
   text-transform: uppercase;
   font-size: 25px;
@@ -101,7 +101,7 @@ li a {
   padding-top: 90px;
 }
 
-#circle4 {
+#venus {
   background: #000000;
   border-radius: 50%;
   width: 250px;
@@ -109,10 +109,11 @@ li a {
   margin-left: 1000px;
 }
 
-#circle4 p{
+#venus p{
   color: white;
   text-transform: uppercase;
   font-size: 30px;
   text-align: center;
   padding-top: 90px;
 }
+
