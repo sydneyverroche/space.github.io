@@ -82,7 +82,7 @@ li a {
   text-transform: uppercase;
   font-size: 40px;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 130px;
 }
 
 #mercury {
@@ -106,7 +106,8 @@ li a {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  margin-left: 1000px;
+  margin-left: 1200px;
+  margin-top: -100px;
 }
 
 #venus p{
@@ -114,7 +115,7 @@ li a {
   text-transform: uppercase;
   font-size: 30px;
   text-align: center;
-  padding-top: 90px;
+  padding-top: 110px;
 }
 
 #earth {
@@ -123,7 +124,7 @@ li a {
   width: 200px;
   height: 200px;
   margin-left: 200px;
-  margin-top: -100px;
+  margin-top: -200px;
 }
 
 #earth p{
@@ -135,11 +136,12 @@ li a {
 }
 
 #mars {
-  background: red;
+  background: maroon;
   border-radius: 50%;
   width: 150px;
   height: 150px;
   margin-left: 600px;
+  margin-top: -150px;
 }
 
 #mars p{
@@ -151,7 +153,7 @@ li a {
 }
 
 #jupiter {
-  background: orange;
+  background: sandybrown;
   border-radius: 50%;
   width: 600px;
   height: 600px;
