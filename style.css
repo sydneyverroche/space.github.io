@@ -1,8 +1,10 @@
 
 
 body {
-	background-color: #152238; color: white;
+	background-color: #152238; 
+  color: white;
 	text-align: center;
+  padding-bottom: 200px;
 }
 
 
@@ -74,15 +76,16 @@ li a {
   border-radius: 250px;
   width: 300px;
   height: 300px;
-  margin-left: 400px;
+  margin-left: 300px;
 }
 
 #sun p{
   color: black;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 75px;
+  font-family: monospace;
   text-align: center;
-  padding-top: 130px;
+  padding-top: 110px;
 }
 
 #mercury {
@@ -90,14 +93,15 @@ li a {
   border-radius: 250px;
   width: 200px;
   height: 200px;
-  margin-left: 800px;
-  margin-top: -200px;
+  margin-left: 750px;
+  margin-top: 100px;
 }
 
 #mercury p{
   color: black;
   text-transform: uppercase;
   font-size: 25px;
+  font-family: monospace;
   text-align: center;
   padding-top: 90px;
 }
@@ -107,14 +111,15 @@ li a {
   border-radius: 50%;
   width: 250px;
   height: 250px;
-  margin-left: 1100px;
-  margin-top: -200px;
+  margin-left: 1050px;
+  margin-top: 50px;
 }
 
 #venus p{
-  color: white;
+  color: black;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 35px;
+  font-family: monospace;
   text-align: center;
   padding-top: 110px;
 }
@@ -125,13 +130,14 @@ li a {
   width: 200px;
   height: 200px;
   margin-left: 100px;
-  margin-top: -300px;
+  margin-top: -100px;
 }
 
 #earth p{
   color: white;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 30px;
+  font-family: monospace;
   text-align: center;
   padding-top: 90px;
 }
@@ -141,16 +147,17 @@ li a {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  margin-left: 600px;
-  margin-top: -80px;
+  margin-left: 660px;
+  margin-top: 100px;
 }
 
 #mars p{
   color: white;
   text-transform: uppercase;
-  font-size: 15px;
+  font-size: 25px;
+  font-family: monospace;
   text-align: center;
-  padding-top: 70px;
+  padding-top: 60px;
 }
 
 #jupiter {
@@ -158,15 +165,17 @@ li a {
   border-radius: 50%;
   width: 600px;
   height: 600px;
-  margin-left: 300px;
+  margin-left: 200px;
+  margin-top: 200px;
 }
 
 #jupiter p{
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-size: 100px;
+  font-family: monospace;
   text-align: center;
-  padding-top: 280px;
+  padding-top: 260px;
 }
 
 #saturn {
@@ -180,6 +189,62 @@ li a {
 #saturn p{
   color: black;
   text-transform: uppercase;
-  font-size: 90px;
+  font-size: 80px;
+  font-family: monospace;
   text-align: center;
-  padding-top: 200px;
+  padding-top: 190px;
+}
+
+#uranus {
+  background: powderblue;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-left: 150px;
+  margin-top: -100px;
+}
+
+#uranus p{
+  color: black;
+  text-transform: uppercase;
+  font-size: 70px;
+  font-family: monospace;
+  text-align: center;
+  padding-top: 170px;
+}
+
+#neptune {
+  background: darkslategrey;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  margin-left: 900px;
+  margin-top: -100px;
+}
+
+#neptune p{
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: monospace;
+  text-align: center;
+  padding-top: 130px;
+}
+
+#pluto {
+  background: midnightblue;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  margin-left: 500px;
+  margin-top: 50px;
+}
+
+#pluto p{
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-family: monospace;
+  text-align: center;
+  padding-top: 25px;
+}
