@@ -118,7 +118,7 @@ li a {
 }
 
 #earth {
-  background: 3CB043;
+  background: 336043;
   border-radius: 50%;
   width: 200px;
   height: 200px;
@@ -133,3 +133,18 @@ li a {
   text-align: center;
   padding-top: 90px;
 }
+
+#mars {
+  background: #8E1600;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: 600px;
+}
+
+#mars p{
+  color: white;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-align: center;
+  padding-top: 70px;
