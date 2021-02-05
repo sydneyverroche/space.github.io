@@ -135,7 +135,7 @@ li a {
 }
 
 #mars {
-  background: #8E1600;
+  background: red;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -151,7 +151,7 @@ li a {
 }
 
 #jupiter {
-  background: #783f04;
+  background: orange;
   border-radius: 50%;
   width: 600px;
   height: 600px;
