@@ -90,8 +90,8 @@ li a {
   border-radius: 250px;
   width: 200px;
   height: 200px;
-  margin-left: 900px;
-  margin-top: -100px;
+  margin-left: 800px;
+  margin-top: -200px;
 }
 
 #mercury p{
@@ -108,7 +108,7 @@ li a {
   width: 250px;
   height: 250px;
   margin-left: 1100px;
-  margin-top: -100px;
+  margin-top: -200px;
 }
 
 #venus p{
@@ -125,7 +125,7 @@ li a {
   width: 200px;
   height: 200px;
   margin-left: 100px;
-  margin-top: -200px;
+  margin-top: -300px;
 }
 
 #earth p{
