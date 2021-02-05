@@ -72,6 +72,8 @@ li a {
  .circle2 {
 background: #000000;
 border-radius: 50%;
+width: 200px;
+height: 200px;
 }
 
 .circle2 p{
