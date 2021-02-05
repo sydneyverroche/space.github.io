@@ -86,7 +86,7 @@ li a {
 }
 
 #mercury {
-  background: #000000;
+  background: wheat;
   border-radius: 250px;
   width: 200px;
   height: 200px;
@@ -94,7 +94,7 @@ li a {
 }
 
 #mercury p{
-  color: white;
+  color: black;
   text-transform: uppercase;
   font-size: 25px;
   text-align: center;
@@ -102,7 +102,7 @@ li a {
 }
 
 #venus {
-  background: #000000;
+  background: peru;
   border-radius: 50%;
   width: 250px;
   height: 250px;
