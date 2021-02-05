@@ -72,8 +72,8 @@ li a {
 #circle2 {
   background: #ffcc00;
   border-radius: 250px;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   margin-left: 400px;
 }
 
@@ -82,7 +82,7 @@ li a {
   text-transform: uppercase;
   font-size: 40px;
   text-align: center;
-  padding-top: 90px;
+  padding-top: 80px;
 }
 
 #circle3 {
@@ -97,6 +97,22 @@ li a {
   color: white;
   text-transform: uppercase;
   font-size: 25px;
+  text-align: center;
+  padding-top: 90px;
+}
+
+#circle4 {
+  background: #000000;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  margin-left: 1000px;
+}
+
+#circle4 p{
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
   text-align: center;
   padding-top: 90px;
 }
