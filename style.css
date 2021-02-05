@@ -74,11 +74,11 @@ background: #000000;
 border-radius: 250px;
 width: 200px;
 height: 200px;
+margin-left: 50%;
 }
 
 .circle2 p{
 color:white;
 text-transform: uppercase;
 font-size:18px;
-margin-left: 50%;
 }
