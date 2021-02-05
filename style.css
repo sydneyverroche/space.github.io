@@ -81,7 +81,7 @@ margin-left: 400px;
 color:white;
 text-transform: uppercase;
 font-size: 25px;
-display: inline-block;
-vertical-align: middle;
-line-height: normal;
+text-align: center;
+top: 50%;
+transform: translateY(-50%);
 }
