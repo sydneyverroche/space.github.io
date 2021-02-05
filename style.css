@@ -149,3 +149,18 @@ li a {
   text-align: center;
   padding-top: 70px;
 }
+
+#jupiter {
+  background: #783f04;
+  border-radius: 50%;
+  width: 600px;
+  height: 600px;
+  margin-left: 300px;
+}
+
+#jupiter p{
+  color: white;
+  text-transform: uppercase;
+  font-size: 100px;
+  text-align: center;
+  padding-top: 280px;
