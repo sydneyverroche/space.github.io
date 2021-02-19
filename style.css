@@ -110,7 +110,7 @@ li a {
   color: white;
   transition-duration: 0.4s;
   border: 3px solid white;
-  transform: scale(1.15);
+  transform: scale(1.25);
 }
 
 #mercury {
