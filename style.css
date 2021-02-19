@@ -100,6 +100,13 @@ li a {
   margin-left: -5px;
 }
 
+.sunbutton {
+  background-color: #2e3e4d;
+  color: white;
+  transition-duration: 0.4s;
+  border: 1px solid white;
+}
+
 #mercury {
   background: wheat;
   border-radius: 250px;
