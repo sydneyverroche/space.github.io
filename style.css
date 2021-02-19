@@ -106,10 +106,10 @@ li a {
 }
 
 .sunbutton:hover {
-  background-color: #2e3e4d;
+  background-color: #192841;
   color: white;
   transition-duration: 0.4s;
-  border: 1px solid white;
+  border: 3px solid white;
 }
 
 #mercury {
