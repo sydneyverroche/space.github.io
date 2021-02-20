@@ -24,62 +24,34 @@ header {
 
 img {
   vertical-align: middle;
+
 }
 
 p {
   color: white;
-  font-size: 25px;
+  font-size: 60px;
   display: inline-block;
-  margin-left: 100px;
+  font-family: sans-serif;
+  margin-top: 10px;
 }
 
 #main-img {
   border-radius: 30px;
   padding: 10px;  
   border: 2px solid white;
-  margin-left: 350px;
   margin-top: 70px;
 }
 
-
-nav {
-	font-family: tahoma;
-	float: left;
-	text-align: left;
-	width: 15%;
-  background: #2e3e4d;
-  padding: 40px;
-  padding-left: 20px;
-  margin-top: -420px;
-  height: 320px;
+.articlebutton {
+  cursor: pointer;
 
 }
 
-ul {
-	list-style-type: none;
+.articlebutton:hover {
+  transition-duration: 0.6s;
+  border: 3px solid white;
+  box-shadow: 0 0 45px white;
 }
-
-li a {
-	color: white;
-}
-
-.button {
-	cursor: pointer;
-  padding: 25px 42px;
-  text-align: left;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-	background-color: #555555;
-	border-radius: 40px;
-}
-
-.button:hover {
-  background-color: #2e3e4d;
-  color: white;
-  transition-duration: 0.4s;
-  border: 1px solid white;
-   }
 
 #sun {
   background: #ffcc00;
@@ -96,8 +68,8 @@ li a {
   font-size: 190px;
   font-family: monospace;
   text-align: center;
-  padding-top: 60px;
-  margin-left: -5px;
+  vertical-align: middle;
+  line-height: 700px;
 }
 
 .sunbutton {
@@ -130,8 +102,8 @@ li a {
   font-size: 35px;
   font-family: monospace;
   text-align: center;
-  padding-top: 45px;
-  margin-left: -1px;
+  vertical-align: middle;
+  line-height: 180px;
 }
 
 .mercurybutton {
@@ -160,8 +132,8 @@ li a {
   font-size: 45px;
   font-family: monospace;
   text-align: center;
-  padding-top: 50px;
-  margin-left: -0.5px;
+  vertical-align: middle;
+  line-height: 230px;
 }
 
 .venusbutton {
@@ -190,8 +162,8 @@ li a {
   font-size: 30px;
   font-family: monospace;
   text-align: center;
-  padding-top: 60px;
-  margin-left: -1px;
+  vertical-align: middle;
+  line-height: 180px;
 }
 
 .earthbutton {
@@ -220,8 +192,8 @@ li a {
   font-size: 25px;
   font-family: monospace;
   text-align: center;
-  padding-top: 40px;
-  margin-left: -1px;
+  vertical-align: middle;
+  line-height: 140px;
 }
 
 .marsbutton {
@@ -250,8 +222,8 @@ li a {
   font-size: 100px;
   font-family: monospace;
   text-align: center;
-  padding-top: 140px;
-  margin-left: -1px;
+  vertical-align: middle;
+  line-height: 560px;
 }
 
 .jupiterbutton {
@@ -279,8 +251,8 @@ li a {
   font-size: 80px;
   font-family: monospace;
   text-align: center;
-  padding-top: 100px;
-  margin-left: -0.5px;
+  vertical-align: middle;
+  line-height: 430px;
 }
 
 .saturnbutton {
@@ -309,8 +281,8 @@ li a {
   font-size: 70px;
   font-family: monospace;
   text-align: center;
-  padding-top: 100px;
-  margin-left: -1px;
+  vertical-align: middle;
+  line-height: 380px;
 }
 
 .uranusbutton {
@@ -339,8 +311,8 @@ li a {
   font-size: 40px;
   font-family: monospace;
   text-align: center;
-  padding-top: 100px;
-  margin-left: -0.5px;
+  vertical-align: middle;
+  line-height: 280px;
 }
 
 .neptunebutton {
@@ -369,8 +341,8 @@ li a {
   font-size: 15px;
   font-family: monospace;
   text-align: center;
-  padding-top: 15px;
-  margin-left: -0.5px;
+  vertical-align: middle;
+  line-height: 50px;
 }
 
 .plutobutton {
