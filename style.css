@@ -113,7 +113,6 @@ li a {
   border: 3px solid white;
   transform: scale(1.05);
   color: white;
-
 }
 
 #mercury {
@@ -356,12 +355,12 @@ li a {
 }
 
 #pluto {
-  background: midnightblue;
+  background: #4169E1;
   border-radius: 50%;
   width: 70px;
   height: 70px;
   margin-left: 500px;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 #pluto p{
