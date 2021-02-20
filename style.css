@@ -130,6 +130,17 @@ li a {
   margin-left: -1px;
 }
 
+.mercurybutton {
+  cursor: pointer;
+}
+
+.mercurybutton:hover {
+  background-color: #192841;
+  transition-duration: 0.4s;
+  border: 3px solid white;
+  transform: scale(1.05);
+}
+
 #venus {
   background: peru;
   border-radius: 50%;
@@ -147,6 +158,17 @@ li a {
   text-align: center;
   padding-top: 50px;
   margin-left: -0.5px;
+}
+
+.venusbutton {
+  cursor: pointer;
+}
+
+.venusbutton:hover {
+  background-color: #192841;
+  transition-duration: 0.4s;
+  border: 3px solid white;
+  transform: scale(1.05);
 }
 
 #earth {
@@ -168,6 +190,17 @@ li a {
   margin-left: -1px;
 }
 
+.earthbutton {
+  cursor: pointer;
+}
+
+.earthbutton:hover {
+  background-color: #192841;
+  transition-duration: 0.4s;
+  border: 3px solid white;
+  transform: scale(1.05);
+}
+
 #mars {
   background: maroon;
   border-radius: 50%;
@@ -185,6 +218,17 @@ li a {
   text-align: center;
   padding-top: 40px;
   margin-left: -1px;
+}
+
+.marsbutton {
+  cursor: pointer;
+}
+
+.marsbutton:hover {
+  background-color: #192841;
+  transition-duration: 0.4s;
+  border: 3px solid white;
+  transform: scale(1.05);
 }
 
 #jupiter {
@@ -206,6 +250,17 @@ li a {
   margin-left: -1px;
 }
 
+.jupiterbutton {
+  cursor: pointer;
+}
+
+.jupiterbutton:hover {
+  background-color: #192841;
+  transition-duration: 0.4s;
+  border: 3px solid white;
+  transform: scale(1.05);
+}
+
 #saturn {
   background: beige;
   border-radius: 50%;
@@ -222,6 +277,17 @@ li a {
   text-align: center;
   padding-top: 100px;
   margin-left: -0.5px;
+}
+
+.saturnbutton {
+  cursor: pointer;
+}
+
+.saturnbutton:hover {
+  background-color: #192841;
+  transition-duration: 0.4s;
+  border: 3px solid white;
+  transform: scale(1.05);
 }
 
 #uranus {
@@ -243,6 +309,17 @@ li a {
   margin-left: -1px;
 }
 
+.uranusbutton {
+  cursor: pointer;
+}
+
+.uranusbutton:hover {
+  background-color: #192841;
+  transition-duration: 0.4s;
+  border: 3px solid white;
+  transform: scale(1.05);
+}
+
 #neptune {
   background: darkslategrey;
   border-radius: 50%;
@@ -262,6 +339,17 @@ li a {
   margin-left: -0.5px;
 }
 
+.neptunebutton {
+  cursor: pointer;
+}
+
+.neptunebutton:hover {
+  background-color: #192841;
+  transition-duration: 0.4s;
+  border: 3px solid white;
+  transform: scale(1.05);
+}
+
 #pluto {
   background: midnightblue;
   border-radius: 50%;
@@ -279,4 +367,15 @@ li a {
   text-align: center;
   padding-top: 15px;
   margin-left: -0.5px;
+}
+
+.plutobutton {
+  cursor: pointer;
+}
+
+.plutobutton:hover {
+  background-color: #192841;
+  transition-duration: 0.4s;
+  border: 3px solid white;
+  transform: scale(1.05);
 }
