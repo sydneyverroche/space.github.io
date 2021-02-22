@@ -1,3 +1,64 @@
 
 body {
-  background-color: #192841;
+  background-image: url("http://i.ytimg.com/vi/qbzFSfWwp-w/maxresdefault.jpg");
+  height: 900px;
+}
+
+#container {
+  margin-top: -75px;
+  position: absolute;
+  margin-left: 40%;
+  width: 700px;
+  height: 100%;
+}
+
+@keyframes mymove {
+    from { transform: rotate(360deg); }
+  	to { transform: rotate(0deg);}
+}
+/* Sun */
+#sun {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: -90px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(to bottom, yellow, orange);
+  box-shadow: 0 0 30px orange;
+  z-index: 100;
+}
+
+/* Mercury */
+#mercury-orbit {
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  border: 1px solid #1e2b3d;
+  position: absolute;
+  z-index: -1;
+  margin-left: 0;
+  margin-top: 54%;
+}
+
+#mercury-square {
+  width: 100px;
+  height: 100px;
+  animation-name: spin;
+  animation-duration: 7200ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12.5px;
+}
+
+#mercury {
+  width: 10%;
+  height: 10%;
+  border-radius: 50%;
+  top: 0;
+  margin-left: 0;
+  background: linear-gradient(to bottom, gray, white);
+  box-shadow: 0 0 5px gray;
+}
