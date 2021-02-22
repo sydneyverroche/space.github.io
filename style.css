@@ -7,11 +7,11 @@ body {
 }
 
 .header-img {
-  width: 100%
-  height: 300px;
   background: url(spacebanner.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 300px;
+  width: 1460px;
 }
 
 header {
@@ -20,10 +20,6 @@ header {
   font-weight: bold;
   text-align: center;
   color: white;
-}
-
-img {
-  vertical-align: middle;
 }
 
 .articlebutton {
