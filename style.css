@@ -352,3 +352,16 @@ p {
   border: 3px solid white;
   transform: scale(1.05);
 }
+
+#qrcode {
+  transform: scale(0.8);
+  margin-top: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nasa {
+  font-size: 15px;
+  
+}
