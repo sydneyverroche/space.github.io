@@ -2,3 +2,269 @@
 body{
 	background-color: beige;
 }
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	transform: scale(0.5);
+}
+
+#img2{
+	padding-left: 900px;
+	margin-top: -650px;
+}
+
+p{
+	font-size: 19px;
+	line-height: 400%;
+}
+
+
+.saturn, .saturn .saturn__ring__wrap, .saturn .saturn__ring__wrap .saturn__ring {
+	 position: absolute;
+	 left: 0;
+	 top: 0;
+}
+ .saturn {
+	 width: 300px;
+	 height: 250px;
+	 transform-style: preserve-3d;
+	 transform-origin: 0 0;
+	 transform: scale(2);
+}
+ .saturn .saturn__background {
+	 position: absolute;
+	 left: 26px;
+	 top: 55px;
+	 transform-origin: 0 0;
+	 transform: scale(0.5);
+}
+ .saturn .saturn__planet__wrap {
+	 position: absolute;
+	 left: 106px;
+	 top: 100px;
+	 width: 110px;
+	 height: 112px;
+	 overflow: hidden;
+	 border-radius: 50%;
+	 background: white;
+}
+ .saturn .saturn__planet__wrap .saturn__planet {
+	 position: absolute;
+	 left: -80px;
+	 top: -45px;
+	 transform-origin: 0 0;
+	 transform: scale(0.5);
+}
+ .saturn .saturn__ring__wrap {
+	 width: 100px;
+	 height: 100px;
+	 border-radius: 50%;
+	 perspective-origin: 50% 50%;
+	 transform-origin: 50% 50%;
+	 transform: translate3d(110px, 104px, 0) scale(3.1, 1.2) rotateX(62deg) rotateY(-36deg) rotateZ(-10deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring {
+	 width: 100px;
+	 height: 100px;
+	 animation: spin 0.9s infinite linear;
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part {
+	 position: absolute;
+	 left: 0;
+	 right: 0;
+	 top: 8.5px;
+	 width: 20px;
+	 height: 17px;
+	 margin: auto;
+	 background: rgba(127, 197, 169, 0);
+	 transform-origin: 50% 50px;
+	 transform: translateY(-50%);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(1) {
+	 transform: translateY(-50%) rotate(7.2deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(2) {
+	 transform: translateY(-50%) rotate(14.4deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(3) {
+	 transform: translateY(-50%) rotate(21.6deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(4) {
+	 transform: translateY(-50%) rotate(28.8deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(5) {
+	 transform: translateY(-50%) rotate(36deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(6) {
+	 transform: translateY(-50%) rotate(43.2deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(7) {
+	 transform: translateY(-50%) rotate(50.4deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(8) {
+	 transform: translateY(-50%) rotate(57.6deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(9) {
+	 transform: translateY(-50%) rotate(64.8deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(10) {
+	 transform: translateY(-50%) rotate(72deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(11) {
+	 transform: translateY(-50%) rotate(79.2deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(12) {
+	 transform: translateY(-50%) rotate(86.4deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(13) {
+	 transform: translateY(-50%) rotate(93.6deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(14) {
+	 transform: translateY(-50%) rotate(100.8deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(15) {
+	 transform: translateY(-50%) rotate(108deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(16) {
+	 transform: translateY(-50%) rotate(115.2deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(17) {
+	 transform: translateY(-50%) rotate(122.4deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(18) {
+	 transform: translateY(-50%) rotate(129.6deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(19) {
+	 transform: translateY(-50%) rotate(136.8deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(20) {
+	 transform: translateY(-50%) rotate(144deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(21) {
+	 transform: translateY(-50%) rotate(151.2deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(22) {
+	 transform: translateY(-50%) rotate(158.4deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(23) {
+	 transform: translateY(-50%) rotate(165.6deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(24) {
+	 transform: translateY(-50%) rotate(172.8deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(25) {
+	 transform: translateY(-50%) rotate(180deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(26) {
+	 transform: translateY(-50%) rotate(187.2deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(27) {
+	 transform: translateY(-50%) rotate(194.4deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(28) {
+	 transform: translateY(-50%) rotate(201.6deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(29) {
+	 transform: translateY(-50%) rotate(208.8deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(30) {
+	 transform: translateY(-50%) rotate(216deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(31) {
+	 transform: translateY(-50%) rotate(223.2deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(32) {
+	 transform: translateY(-50%) rotate(230.4deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(33) {
+	 transform: translateY(-50%) rotate(237.6deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(34) {
+	 transform: translateY(-50%) rotate(244.8deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(35) {
+	 transform: translateY(-50%) rotate(252deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(36) {
+	 transform: translateY(-50%) rotate(259.2deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(37) {
+	 transform: translateY(-50%) rotate(266.4deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(38) {
+	 transform: translateY(-50%) rotate(273.6deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(39) {
+	 transform: translateY(-50%) rotate(280.8deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(40) {
+	 transform: translateY(-50%) rotate(288deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(41) {
+	 transform: translateY(-50%) rotate(295.2deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(42) {
+	 transform: translateY(-50%) rotate(302.4deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(43) {
+	 transform: translateY(-50%) rotate(309.6deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(44) {
+	 transform: translateY(-50%) rotate(316.8deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(45) {
+	 transform: translateY(-50%) rotate(324deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(46) {
+	 transform: translateY(-50%) rotate(331.2deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(47) {
+	 transform: translateY(-50%) rotate(338.4deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(48) {
+	 transform: translateY(-50%) rotate(345.6deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(49) {
+	 transform: translateY(-50%) rotate(352.8deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(50) {
+	 transform: translateY(-50%) rotate(360deg);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(1) {
+	 background: linear-gradient(to left, rgba(127, 197, 169, 0.3) 0%, rgba(127, 197, 169, 0) 100%);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(2) {
+	 background: linear-gradient(to left, rgba(127, 197, 169, 0.3) 0%, rgba(127, 197, 169, 0) 100%);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(3) {
+	 background: linear-gradient(to left, rgba(127, 197, 169, 0.3) 0%, rgba(127, 197, 169, 0) 100%);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(4) {
+	 background: rgba(127, 197, 169, 0.3);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(5) {
+	 background: rgba(127, 197, 169, 0.3);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(6) {
+	 background: rgba(127, 197, 169, 0.3);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(7) {
+	 background: linear-gradient(to right, rgba(127, 197, 169, 0.3) 0%, rgba(127, 197, 169, 0) 100%);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(8) {
+	 background: linear-gradient(to right, rgba(127, 197, 169, 0.3) 0%, rgba(127, 197, 169, 0) 100%);
+}
+ .saturn .saturn__ring__wrap .saturn__ring .saturn__ring__part:nth-of-type(9) {
+	 background: linear-gradient(to right, rgba(127, 197, 169, 0.3) 0%, rgba(127, 197, 169, 0) 100%);
+}
+ @keyframes spin {
+	 from {
+		 transform: rotate(0deg);
+	}
+	 to {
+		 transform: rotate(360deg);
+	}
+}
+ 
